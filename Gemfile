@@ -14,8 +14,7 @@ gem 'bootstrap-kaminari-views'
 
 gem 'faker'
 
-gem 'paperclip'
-gem 'aws-sdk'
+gem 'auctionhouse'
 
 # Gems used only for assets and not required
 # in production environments by default.
