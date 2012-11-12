@@ -1,11 +1,4 @@
-## Filters ##
-* Need to add some filters on the description field, transactions. Basically Rene is eating too much Chipotle.
+## Details ##
+Boiler Plate app that has Devise, Active Admin and Twitter Boostrap running out of the box.
 
-## Start to think about users > groups > transactions ##
-
-## Zassmin steps ##
-* Install Postgres and MySql at the machine level using Brew
-
-## App next steps ##
-* User needs to be able to create (and edit) personal details. Needs to be a wizard type deal on sign in for this.
-* Need to deploy to Zassmin's Heroku account.
+Good for creating new apps from.
