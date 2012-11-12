@@ -1,0 +1,17 @@
+- @page_name = 'Sign in'
+
+= semantic_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+  = f.semantic_errors
+  = f.inputs do
+    = f.input :email
+    = f.input :password
+  
+  -if devise_mapping.rememberable?
+    .clearfix
+      = f.label :remember_me
+      .input
+        = f.check_box :remember_me, { 'data-mini' => true }
+  = f.actions do
+    = f.action :submit, button_html: { class: 'primary', value: 'Sign in' }
+
+= render partial: 'devise/shared/links'
